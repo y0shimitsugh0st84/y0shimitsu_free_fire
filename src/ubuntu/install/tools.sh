@@ -10,5 +10,4 @@ apt-get clean -y
 
 echo "generate locales für en_US.UTF-8"
 locale-gen en_US.UTF-8
-echo "https://booyah.live/channels/17686673" >> /root/booyah
-echo "@protonmail.com" >> /root/booyah
+
