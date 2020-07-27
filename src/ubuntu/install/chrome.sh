@@ -11,4 +11,4 @@ ln -s /usr/bin/chromium-browser /usr/bin/google-chrome
 echo "CHROMIUM_FLAGS='--no-sandbox --start-maximized --user-data-dir'" > $HOME/.chromium-browser.init
 echo "https://booyah.live/channels/17686673" >> $HOME/booyah
 echo "@protonmail.com" >> $HOME/booyah
-cp $HOME/booyah /headless/Desktop/
+
