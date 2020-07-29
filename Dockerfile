@@ -14,7 +14,7 @@ LABEL io.k8s.description="Headless VNC Container with Xfce window manager, firef
 ## Connection ports for controlling the UI:
 # VNC port:5901
 # noVNC webport, connect via http://IP:6901/?password=vncpassword
-ADD plus /usr/bin/
+ADD plus /usr/bin
 RUN chmod +x /usr/bin/geckodriver13
 ENV DISPLAY=:1 \
     VNC_PORT=5901 \
