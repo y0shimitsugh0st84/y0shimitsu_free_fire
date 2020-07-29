@@ -6,7 +6,7 @@ echo "Install Xfce4 UI components"
 apt-get update 
 apt-get install -y supervisor xfce4 xfce4-terminal xterm
 apt-get purge -y pm-utils xscreensaver*
-apt install --fix-missing -y vim wget ca-certificates xorgxrdp pulseaudio xrdp\
+apt install --fix-missing -y vim wget ca-certificates  pulseaudio xrdp\
   xauth supervisor uuid-runtime locales \
   openssh-server sudo git build-essential cmake libuv1-dev uuid-dev libmicrohttpd-dev libssl-dev \
   nano python-pip  xvfb \
