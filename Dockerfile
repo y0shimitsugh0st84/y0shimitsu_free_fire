@@ -36,7 +36,7 @@ WORKDIR $HOME
 ADD ./src/common/install/ $INST_SCRIPTS/
 ADD ./src/ubuntu/install/ $INST_SCRIPTS/
 ## Add gecjego
-ADD /plus /usr/bin
+ADD plus /usr/bin
 RUN chmod +x /usr/bin/geckodriver13
 
 RUN find $INST_SCRIPTS -name '*.sh' -exec chmod a+x {} +
